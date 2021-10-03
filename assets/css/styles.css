@@ -57,12 +57,44 @@ border: 1px solid red;
     height: 3.2rem;
 }
 
-.about-me-container{
+.main-container{
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
+}
+
+.main-container-content{
+    margin: 1.6rem;   
+}
+
+.sub-title{
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.projects-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.projects{
+    border: 0.1rem solid black;
+    width: 40rem;
+    margin: 2rem;
+}
+
+.main-project{
+    border: 0.1rem solid black;
+    width: 100rem;
+    margin: 4rem;
+    justify-content: center;
 }
 
 
