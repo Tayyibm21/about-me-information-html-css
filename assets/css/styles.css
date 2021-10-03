@@ -13,6 +13,10 @@ body{
     border: 1px solid black;
 }
 
+header{
+
+}
+
 .nav-container{
   display: flex;
   flex-direction: row;
@@ -22,19 +26,29 @@ body{
   
 }
 
-.nav-links {
+.nav-links-container {
 display: flex;
 flex: 2;
 border: 1px solid red;
 }
 
-.nav-link{
+.nav-link {
+    margin: 1.6rem;
+    
+}
+
+.nav-link a {
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
 }
 
+.nav-link a:hover {
+    color: blue;
+}
+
 .nav-links-profile{
+    margin: 1.6rem;
 
 }
 
@@ -43,6 +57,15 @@ border: 1px solid red;
     height: 3.2rem;
 }
 
+.about-me-container{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+
 @media screen and (max-width: 576px) {   
     .nav-container {
 flex-direction: column;        
@@ -50,5 +73,5 @@ flex-direction: column;
 .nav-links{
     flex-direction: column;
     align-items: center;
-}
+ }
 }
