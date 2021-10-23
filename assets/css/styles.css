@@ -97,6 +97,10 @@ align-items: center;
     justify-content: center;
 }
 
+.projects img{
+height: 100%;
+width: 100%;
+}
 
 @media screen and (max-width: 576px) {   
     .nav-container {
